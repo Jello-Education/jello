@@ -1,0 +1,118 @@
+{
+  "name": "izzi-gaming",
+  "version": "1.0.1",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "1.x",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/data-grid": "^4.0.0-alpha.33",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@material-ui/pickers": "^3.2.10",
+    "@mui/material": "^5.2.6",
+    "@nivo/core": "^0.69.0",
+    "@nivo/line": "^0.69.1",
+    "@sentry/react": "^6.2.5",
+    "@sentry/tracing": "^6.2.5",
+    "@trendyol-js/react-carousel": "^2.0.1",
+    "@u-wave/react-vimeo": "^0.9.5",
+    "axios": "^0.19.0",
+    "cpf-cnpj-validator": "^1.0.3",
+    "date-fns": "^2.17.0",
+    "discord-oauth2": "^2.6.0",
+    "inputmask": "^5.0.6",
+    "mixpanel-browser": "^2.41.0",
+    "moment": "^2.29.1",
+    "rc-dropdown": "^3.2.2",
+    "rc-menu": "^9.3.0",
+    "react": "^17.0.1",
+    "react-activity-feed": "https://github.com/arturhaddad/react-activity-feed.git",
+    "react-burger-menu": "^3.0.6",
+    "react-dom": "^17.0.1",
+    "react-facebook-pixel": "^1.0.4",
+    "react-gtm-module": "^2.0.11",
+    "react-icons": "^4.3.1",
+    "react-loader-spinner": "^3.1.2",
+    "react-modal": "^3.14.4",
+    "react-particles-js": "^3.2.0",
+    "react-popper-tooltip": "^4.3.0",
+    "react-qr-code": "^1.1.1",
+    "react-responsive-carousel": "^3.2.10",
+    "react-router-dom": "6",
+    "react-scripts": "4.0.1",
+    "react-toastify": "^6.0.5",
+    "sass": "^1.32.5",
+    "styled-components": "^5.1.0",
+    "swiper": "^7.4.1",
+    "tsparticles": "^1.31.1",
+    "web-vitals": "^0.2.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "import-sort-style-eslint-typescript-hero": "^1.1.0",
+    "jest-canvas-mock": "^2.3.0",
+    "prettier": "^2.2.1",
+    "prettier-plugin-import-sort": "^0.0.4",
+    "stylelint": "^13.0.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-styled-components": "^0.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build-temp": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
+    "test": "react-scripts test",
+    "lint:js": "eslint --ext=js --ext=jsx .",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "stylelint": {
+    "syntax": "styled",
+    "extends": [
+      "stylelint-config-recommended",
+      "stylelint-config-styled-components"
+    ]
+  },
+  "importSort": {
+    ".js, .jsx, .ts, .tsx": {
+      "style": "eslint-typescript-hero",
+      "parser": "typescript",
+      "options": {
+        "tsHeroGroupsConfig": [
+          "/^react.*$/",
+          "/^[^~.]/",
+          "/^~/",
+          "/^./"
+        ]
+      }
+    }
+  }
+}
