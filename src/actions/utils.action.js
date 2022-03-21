@@ -1,12 +1,12 @@
 import { version } from '../../package.json';
 
-const izziVersion = `izzi-gaming-${version}`;
+const JelloVersion = `jello-${version}`;
 
 export const setAuthAndUser = (store, token = null, user = null) => {
-  if (token) localStorage.setItem(`${izziVersion}-token`, token);
+  if (token) localStorage.setItem(`${JelloVersion}-token`, token);
   if (user) {
     store.actions.setUserContext('root', user);
-    localStorage.setItem(`${izziVersion}-user`, JSON.stringify(user));
+    localStorage.setItem(`${JelloVersion}-user`, JSON.stringify(user));
   }
 };
 

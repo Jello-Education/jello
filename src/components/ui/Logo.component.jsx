@@ -1,10 +1,7 @@
 import React from 'react';
-import { izziStorage } from '../../resources/config';
 
-const Logo = ({ className }) => {
-  const logo = `${izziStorage}/izzi/logo.png`;
+import { jelloStorage } from '../../resources/config';
 
-  return <img src={logo} alt="logo" className={className} />;
-};
+const Logo = ({ className }) => ();
 
 export default Logo;

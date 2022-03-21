@@ -9,7 +9,7 @@ import setToast from '../utils/toast.utils';
 import authRoutes from './authenticationRoutes';
 import classRoutes from './classRoutes';
 
-const izziVersion = `izzi-gaming-${version}`;
+const jelloVersion = `jello-${version}`;
 
 const routeObjects = [...authRoutes, ...classRoutes];
 const mappedRoutes = routeObjects.map(mapRouteObject);
@@ -17,7 +17,7 @@ const mappedRoutes = routeObjects.map(mapRouteObject);
 const AppRoutes = () => {
   const navigate = useNavigate();
   const byPassRoutes = ['', 'signin', 'signup', 'classes'];
-  const token = localStorage.getItem(`${izziVersion}-token`);
+  const token = localStorage.getItem(`${jelloVersion}-token`);
   const path = window.location.pathname;
 
   useEffect(async () => {
@@ -26,12 +26,12 @@ const AppRoutes = () => {
     const resignin = url.searchParams.get('resignin');
 
     if (!token && urlToken && resignin) {
-      localStorage.setItem(`${izziVersion}-token`, urlToken);
+      localStorage.setItem(`${jelloVersion}-token`, urlToken);
       const [, response] = await requester('GET', `/v1/public/auth/resignin`);
       if (response.status === 200) {
-        localStorage.setItem(`${izziVersion}-token`, response.data.token);
+        localStorage.setItem(`${jelloVersion}-token`, response.data.token);
         localStorage.setItem(
-          `${izziVersion}-user`,
+          `${jelloVersion}-user`,
           JSON.stringify(response.data.user)
         );
         window.history.replaceState(null, null, window.location.pathname);

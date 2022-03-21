@@ -187,7 +187,6 @@ export const ptBR = {
     buy: 'Comprar',
   },
   labels: {
-    accessIZZIDiscord: 'Acessar o discord da IZZI',
     actions: 'Ações',
     addComment: 'Adicione um comentário...',
     additionalInfo: 'Informações adicionais',
@@ -229,10 +228,8 @@ export const ptBR = {
     favoriteLanes: 'Lanes favoritas',
     flags: 'Flags',
     free: 'Grátis',
-    howKnowUs: 'Como conheceu a IZZI?',
     hour: 'hora',
     hours: 'horas',
-    knowIZZICoaches: 'Conhecer os coaches da IZZI',
     lastMatches: 'Últimas partidas (Ranked Solo/Duo)',
     lanes: 'Lanes',
     learnWithPro: 'Aprenda com um profissional',
@@ -248,7 +245,6 @@ export const ptBR = {
     noAdditionalDifficulty: 'Nenhuma dificuldade adicional',
     noCommentsToShow:
       'Essa marcação ainda não possui comentários, que tal comentar?',
-    noIZZIContentToShow: 'Em breve lançaremos conteúdos exclusivos!',
     noMatchesToShow: 'Nenhuma partida rankeada para ser exibida...',
     noMarkerSelected: 'Nenhuma marcação selecionada!',
     noMarkersToShow: 'Esse vídeo ainda não possui marcações, que tal começar?',
@@ -276,8 +272,6 @@ export const ptBR = {
     rank: 'Rank',
     recommendedBy: 'Recomendado por',
     resetPassword: 'Resetar password',
-    riotApiUsage:
-      'A IZZI Gaming não é endossada pela Riot Games e não reflete as visões ou opiniões da Riot Games ou de qualquer pessoa oficialmente envolvida na produção ou gerenciamento de propriedades da Riot Games. Riot Games e todas as propriedades associadas são marcas comerciais ou marcas registradas da Riot Games, Inc.',
     role: 'Tipo',
     searchBy: 'Pesquise por título',
     security: 'Segurança',
@@ -297,11 +291,8 @@ export const ptBR = {
     type: 'Tipo',
     unauthorized: 'Acesso negado',
     username: 'Nome de usuário',
-    usernameIzzi: 'Nome de usuário na IZZI',
     users: 'Usuários',
     verifiedAccount: 'Conta verificada!',
-    verifiedAccountDescription:
-      'Acesse a plataforma e aproveite toda a experiência IZZI!',
     videoLibrary: 'Biblioteca de vídeos',
     videoUrl: 'Vídeo url',
     unverifiedAccount: 'Conta não verificada!',
@@ -378,7 +369,6 @@ export const ptBR = {
     },
     gaming: {
       goalsTitle: 'Definições de objetivo',
-      title: 'Nos conte o que você deseja evoluir com a IZZI',
       captionSignin: 'Entre na plataforma',
       summoner: 'Nome de Invocador',
       goalInSeason: 'Meu Objetivo na Season',
@@ -388,18 +378,8 @@ export const ptBR = {
       continue: 'Continuar',
     },
     register: {
-      defineYourPath:
-        'Escreva seu próprio caminho de vitórias junto com a IZZI!',
-      discord:
-        'Conecte seu discord no botão abaixo para receber as notificações da IZZI!',
       firstStep:
         'O primeiro passo é configurar seu perfil de player para garantir a melhor experiência na sua evolução.',
-      typeTheSummoner:
-        'Escreva abaixo seu nome de invocador no League of Legends para identificarmos seu perfil e criarmos sua experiênica personalizada na IZZI',
-      otherGamesIndication:
-        'Por enquanto, a IZZI tem suporte apenas para o LoL. Você é de outro jogo? Clique no link abaixo para sugerir os próximos games que entrarão na plataforma.',
-      newGameIndication: 'Quero sugerir novos jogos para a IZZI!',
-      greetings: 'A IZZI te deseja uma experência única de muita evolução!',
       knowUsBy: 'Conte como nos encontrou e se foi recomendado por alguém!',
       journeyBegins: 'Sua jornada começa agora!',
       success:
@@ -410,10 +390,8 @@ export const ptBR = {
       user: 'Usuário',
       captionSignup: 'Cadastre-se com',
       signin: 'Entrar',
-      buttonSignup: 'Cadastrar na IZZI',
       placeholderEmail: 'Digite o seu email',
       placeholderPassword: 'Digite a sua senha',
-      placeholderUserName: 'Seu nome de usuário dentro da IZZI',
       signupTerms: 'Ao cadastrar, concordo que li e aceito os',
       signupTermsLink:
         'termos de uso e políticas de privacidade da plataforma.',

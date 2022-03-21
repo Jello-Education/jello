@@ -12,12 +12,12 @@ import App from './App';
 import { env } from './resources/config';
 import GlobalStyle from './styles/global';
 
-const izziVersion = `izzi-gaming-${version}`;
+const JelloVersion = `jello-${version}`;
 
 Sentry.init({
   dsn: 'https://a29b5dd15d5b4470baeefff40c983a6b@o561128.ingest.sentry.io/5697616',
   environment: env,
-  release: izziVersion,
+  release: JelloVersion,
   integrations: [new Integrations.BrowserTracing()],
   tracesSampleRate: 1.0,
 });

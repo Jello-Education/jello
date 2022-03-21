@@ -1,7 +1,7 @@
 import { version } from '../../package.json';
 
 export const getCurrentUser = () => {
-  const jelloVersion = `izzi-gaming-${version}`;
+  const jelloVersion = `jello-${version}`;
   const userStorage = localStorage.getItem(`${jelloVersion}-user`);
   return userStorage ? JSON.parse(userStorage) : null;
 };

@@ -1,5 +1,5 @@
 const ui = {
-  theme: 'izzi',
+  theme: 'jello',
   showLoader: false,
   language: 'ptBR',
 };
