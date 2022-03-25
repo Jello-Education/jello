@@ -2,7 +2,7 @@ import React from 'react';
 
 const SignIn = () => (
   <div>
-    <p>SignIn</p>
+    <p>Ambiente de teste</p>
   </div>
 );
 
