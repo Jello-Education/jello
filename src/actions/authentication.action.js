@@ -19,7 +19,9 @@ export const signIn = async (store, navigate, credentials) => {
 
 export const signUp = async (store, navigate, profile) => {
   store.actions.cleanStorage();
-  const result = await requester('POST', '/v1/public/auth/signup', { profile });
+  // const result = await requester('POST', '/v1/public/auth/signup', { profile });
+  const result = 0;
+
   const resultData = result[0] || result[1];
   const response = resultData.response ? resultData.response : resultData;
 
