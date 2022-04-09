@@ -1,16 +1,15 @@
+import Checkbox from '@mui/material/Checkbox';
 import styled from 'styled-components';
 
-import { FontFamily, MediaQuery } from '../../styles/variables';
+import { FontFamily, MediaQuery } from '../../../../styles/variables';
 
 export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  input {
-    border-radius: 40px;
-  }
 `;
+
+export const Check = styled(Checkbox)``;
 
 export const TitleConect = styled.p`
   font-family: ${FontFamily.MONTSERRAT};

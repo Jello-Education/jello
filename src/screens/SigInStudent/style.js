@@ -96,6 +96,10 @@ export const Divider = styled.div`
 export const ContainerInput = styled.div`
   padding: 0 30px;
 
+  div:last-child {
+    justify-content: left;
+  }
+
   @media ${MediaQuery.MOBILE} {
     padding: 0px;
   }

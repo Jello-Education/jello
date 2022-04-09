@@ -4,8 +4,8 @@ import EmailIcon from '../../assets/icons/email.svg';
 import PadlockIcon from '../../assets/icons/padlock.svg';
 import ButtonGoogle from '../../components/ButtonGoogle';
 import ButtonMain from '../../components/ButtonMain';
-import Conect from '../../components/Conect';
 import InputLogin from '../../components/InputLogin';
+import Conect from './components/Conect';
 import {
   Container,
   ContainerInput,
