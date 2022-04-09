@@ -4,11 +4,13 @@ import EmailIcon from '../../assets/icons/email.svg';
 import PadlockIcon from '../../assets/icons/padlock.svg';
 import ButtonGoogle from '../../components/ButtonGoogle';
 import ButtonMain from '../../components/ButtonMain';
+import Conect from '../../components/Conect';
 import InputLogin from '../../components/InputLogin';
 import {
   Container,
   ContainerInput,
   Divider,
+  ForgotPassword,
   SectionButton,
   SectionInputs,
   Title,
@@ -32,11 +34,16 @@ const SignIn = () => (
       <ContainerInput>
         <InputLogin placeholder="E-mail" img={EmailIcon} />
         <InputLogin placeholder="Senha" img={PadlockIcon} password top={16} />
+        <Conect />
       </ContainerInput>
       <SectionButton>
         <ButtonMain title="Cadastrar" background="#FD3373" top={30} />
         <ButtonMain title="Entrar" background="#44F9BD" colorFont="#282828" />
       </SectionButton>
+
+      <ForgotPassword>
+        <p>Esqueci minha senha</p>
+      </ForgotPassword>
     </SectionInputs>
   </Container>
 );

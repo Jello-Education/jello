@@ -104,3 +104,24 @@ export const ContainerInput = styled.div`
 export const SectionButton = styled.div`
   cursor: pointer;
 `;
+
+export const ForgotPassword = styled.a`
+  cursor: pointer;
+  p {
+    margin-top: 40px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    letter-spacing: 0.015em;
+    text-decoration-line: underline;
+
+    color: #fd3373;
+
+    @media ${MediaQuery.MOBILE} {
+      margin-top: 20px;
+    }
+  }
+`;
