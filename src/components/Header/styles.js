@@ -29,7 +29,8 @@ export const Container = styled.header`
     width: 8rem !important;
     cursor: pointer;
     position: absolute;
-    left: 633px;
+    top: 22%;
+    left: 48%;
   }
 
   @media (max-width: 1000px) {
@@ -44,9 +45,10 @@ export const Container = styled.header`
     }
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     img {
-      left: 262px;
+      top: 42%;
+      left: 50%;
     }
   }
 `;

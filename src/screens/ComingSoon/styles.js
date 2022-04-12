@@ -50,8 +50,12 @@ export const ComingSoonContainer = styled.div`
 
   @media (max-width: 500px) {
     img {
-      width: 364px;
-      height: 181px;
+      width: 304px;
+      height: 161px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
     }
   }
 `;
