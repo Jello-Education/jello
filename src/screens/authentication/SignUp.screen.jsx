@@ -1,9 +1,9 @@
 import React from 'react';
 
-const SignUp = () => {
+const SignUp = () => (
   <div>
     <p>SignUp</p>
-  </div>;
-};
+  </div>
+);
 
 export default SignUp;

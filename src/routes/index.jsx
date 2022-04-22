@@ -7,7 +7,7 @@ import requester from '../resources/requester';
 import { mapRouteObject } from '../utils/routes.utils';
 import setToast from '../utils/toast.utils';
 import authRoutes from './authenticationRoutes';
-import classRoutes from './classRoutes';
+import classRoutes from './comingSoonRoutes';
 
 const jelloVersion = `jello-${version}`;
 
@@ -16,7 +16,7 @@ const mappedRoutes = routeObjects.map(mapRouteObject);
 
 const AppRoutes = () => {
   const navigate = useNavigate();
-  const byPassRoutes = ['', 'signin', 'signup', 'classes'];
+  const byPassRoutes = ['', 'signin', 'signup', 'coming', 'classe'];
   const token = localStorage.getItem(`${jelloVersion}-token`);
   const path = window.location.pathname;
 
