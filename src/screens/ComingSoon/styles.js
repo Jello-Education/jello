@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
+import { MediaQuery } from '../../styles/variables';
+
 export const Container = styled.div`
   width: 100%;
-  background: #fafafa;
   align-items: center;
-  display: flex;
   justify-content: center;
 
   margin-bottom: -100px;
@@ -16,42 +16,35 @@ export const ComingSoonContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1120px;
   justify-content: center;
   align-items: center;
 
   img {
-    width: 700px;
-    height: 500px;
     width: 764px;
     height: 581px;
   }
 
-  h2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 54px;
-    margin-bottom: 80px;
-
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 2.5rem;
-    color: #282828;
-
-    text-align: center;
-  }
-
-  @media (max-width: 800px) {
-    img {
-      width: 564px;
-      height: 381px;
-    }
-  }
-
-  @media (max-width: 500px) {
+  @media ${MediaQuery.MOBILE} {
     img {
       width: 364px;
       height: 181px;
     }
+  }
+`;
+
+export const Title = styled.h2`
+  justify-content: center;
+  margin-top: 54px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #282828;
+
+  text-align: center;
+
+  @media ${MediaQuery.MOBILE} {
+    font-size: 16px;
+    margin-top: 24px;
   }
 `;
