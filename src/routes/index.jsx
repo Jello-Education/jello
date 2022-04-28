@@ -16,7 +16,7 @@ const mappedRoutes = routeObjects.map(mapRouteObject);
 
 const AppRoutes = () => {
   const navigate = useNavigate();
-  const byPassRoutes = ['', 'signin', 'signup', 'coming', 'classe'];
+  const byPassRoutes = ['coming', 'signin', 'signup', 'classe'];
   const token = localStorage.getItem(`${jelloVersion}-token`);
   const path = window.location.pathname;
 
@@ -42,12 +42,12 @@ const AppRoutes = () => {
 
       const isPublicRoute = byPassRoutes.includes(path.split('/')[1]);
       if (!token && !isPublicRoute) {
-        navigate('/signin');
+        navigate('/coming');
         setToast('error', 'Login necessário');
       }
 
       if (!token && !path.split('/')[1]) {
-        navigate('/signin');
+        navigate('/coming');
       } else if (!path.split('/')[1]) {
         navigate('/home');
       }
