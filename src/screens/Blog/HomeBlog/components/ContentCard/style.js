@@ -7,13 +7,14 @@ import {
   MediaQuery,
 } from '../../../../../styles/variables';
 
-export const Container = styled.div`
+export const Container = styled.a`
   background: #f6f6f6;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
-  max-width: 400px;
+  max-width: 350px;
   padding-bottom: 10px;
   margin: 10px;
+  cursor: pointer;
 
   @media ${MediaQuery.MOBILE} {
     max-width: 300px;
