@@ -17,7 +17,7 @@ const mappedRoutes = routeObjects.map(mapRouteObject);
 
 const AppRoutes = () => {
   const navigate = useNavigate();
-  const byPassRoutes = ['coming', 'signin', 'signup', 'classe', 'blog'];
+  const byPassRoutes = ['blog', 'coming', 'signin', 'signup', 'classe'];
   const token = localStorage.getItem(`${jelloVersion}-token`);
   const path = window.location.pathname;
 

@@ -30,7 +30,7 @@ export const Title = styled.h1`
   font-family: ${FontFamily.MONTSERRAT};
   font-style: normal;
   font-weight: ${FontWeight.SEMI_BOLD};
-  font-size: 48px;
+  font-size: 38px;
   line-height: 59px;
   margin-bottom: 15px;
 

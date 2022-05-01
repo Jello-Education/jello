@@ -6,7 +6,7 @@ import { Container, ContainerImg, HeaderContent } from './styles';
 const Header = () => (
   <Container>
     <HeaderContent>
-      <ContainerImg href="/">
+      <ContainerImg href="/blog">
         <img src={LogoBlog} alt="Logo da Jello" />
       </ContainerImg>
     </HeaderContent>

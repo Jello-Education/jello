@@ -14,8 +14,8 @@ import {
   TitleHeader,
 } from './style';
 
-const Contentcard = ({ title, time, img, description, autor }) => (
-  <Container>
+const Contentcard = ({ title, time, img, description, autor, link }) => (
+  <Container href={link}>
     <Header>
       <TitleHeader>{title}</TitleHeader>
       <PublicationTime>{time}</PublicationTime>
