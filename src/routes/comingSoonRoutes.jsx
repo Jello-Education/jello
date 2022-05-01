@@ -10,8 +10,8 @@ const addCommonProps = (route) => ({
   layout: DefaultLayout,
 });
 
-const classRoutes = [{ path: '/coming', element: () => <ComingSoon /> }];
+const comingRoutes = [{ path: '/coming', element: () => <ComingSoon /> }];
 
-const mappedClassRoutes = classRoutes.map(addCommonProps);
+const mappedComingRoutes = comingRoutes.map(addCommonProps);
 
-export default mappedClassRoutes;
+export default mappedComingRoutes;

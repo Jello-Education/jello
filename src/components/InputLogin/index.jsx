@@ -7,7 +7,7 @@ const InputLogin = ({ placeholder, img, password }) => {
   const v = 0;
   return (
     <Container>
-      <Img src={img} />
+      {img && <Img src={img} />}
       <Input placeholder={placeholder} type="text" />
       {password && (
         <ButtonPassword>
