@@ -9,6 +9,7 @@ import {
 
 export const Container = styled.div`
   margin-top: 30px;
+  margin-bottom: 100px;
 `;
 
 export const ImageContent = styled.img`
