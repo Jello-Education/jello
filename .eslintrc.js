@@ -10,7 +10,7 @@ module.exports = {
     'react/jsx-filename-extension': [
       'warn',
       {
-        extensions: ['.js', '.jsx'],
+        extensions: ['.js', '.jsx', 'ts', 'tsx'],
       },
     ],
     'react/prop-types': 'off',

@@ -9,7 +9,8 @@ const GlobalStyle = createGlobalStyle`
 	}
 	#root {
 		margin: 0 auto;
-    width: 100%;
+    	width: 100%;
+		height: 100%;
 	}
 	button {
 		cursor: pointer;

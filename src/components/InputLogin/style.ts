@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-import { FontFamily } from '../../styles/variables';
-
 export const Container = styled.div`
   display: flex;
   align-items: center;
@@ -21,6 +19,8 @@ export const Container = styled.div`
   margin: 8px;
   padding-left: 30px;
   padding-right: 30px;
+
+  margin-top: ${({ top }) => top || 0}px;
 `;
 
 export const Input = styled.input`

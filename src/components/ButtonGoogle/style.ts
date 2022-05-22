@@ -7,9 +7,10 @@ export const Container = styled.button`
   border: none;
 
   background: #fafafa;
-  box-shadow: 0px 4px 4px rgba(40, 40, 40, 0.5);
+  box-shadow: 0px 1.5px 6px rgba(40, 40, 40, 0.5);
   border-radius: 50px;
-
+  margin-bottom: 20px;
+  margin-top: 20px;
   cursor: pointer;
 
   div {
