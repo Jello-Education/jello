@@ -3,11 +3,11 @@ import React from 'react';
 import ShowPassword from '../../assets/icons/showPassword.svg';
 import { ButtonPassword, Container, Img, Input } from './style';
 
-const InputLogin = ({ placeholder, img, password }) => {
+const InputLogin = ({ placeholder, img, password, top }) => {
   const v = 0;
   return (
-    <Container>
-      {img && <Img src={img} />}
+    <Container top={top}>
+      <Img src={img} />
       <Input placeholder={placeholder} type="text" />
       {password && (
         <ButtonPassword>

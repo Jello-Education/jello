@@ -21,6 +21,8 @@ export const Container = styled.div`
   margin: 8px;
   padding-left: 30px;
   padding-right: 30px;
+
+  margin-top: ${({ top }) => top || 0}px;
 `;
 
 export const Input = styled.input`
