@@ -3,7 +3,12 @@ import React from 'react';
 import GoogleIcon from '../../assets/icons/google.svg';
 import { Container } from './style';
 
-const ButtonGoogle = ({ buttonTop, buttonBottom }) => (
+interface Props {
+  buttonTop?: number;
+  buttonBottom?: number;
+}
+
+const ButtonGoogle = ({ buttonTop, buttonBottom }: Props) => (
   <Container style={{ marginTop: buttonTop, marginBottom: buttonBottom }}>
     <div>
       <img src={GoogleIcon} alt="google" />

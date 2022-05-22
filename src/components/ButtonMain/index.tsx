@@ -2,7 +2,15 @@ import React from 'react';
 
 import { Container } from './style';
 
-const ButtonMain = ({ title, colorFont, background, top, bottom }) => (
+interface Props {
+  title: string;
+  colorFont?: string;
+  background?: string;
+  top?: number;
+  bottom?: number;
+}
+
+const ButtonMain = ({ title, colorFont, background, top, bottom }: Props) => (
   <Container
     colorFont={colorFont}
     background={background}
