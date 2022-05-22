@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-import { FontFamily } from '../../styles/variables';
-
 export const Container = styled.div`
   display: flex;
   align-items: center;
