@@ -16,6 +16,7 @@ const routeObjects = [...authRoutes, ...comingRoutes, ...blogRoutes];
 const mappedRoutes = routeObjects.map(mapRouteObject);
 
 const AppRoutes = () => {
+  
   const navigate = useNavigate();
   const byPassRoutes = ['blog', 'coming', 'signin', 'signup', 'classe'];
   const token = localStorage.getItem(`${jelloVersion}-token`);

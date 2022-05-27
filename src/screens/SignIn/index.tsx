@@ -1,51 +1,102 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import EmailIcon from '../../assets/icons/email.svg';
-import PadlockIcon from '../../assets/icons/padlock.svg';
-import ButtonGoogle from '../../components/ButtonGoogle';
-import ButtonMain from '../../components/ButtonMain';
-import InputLogin from '../../components/InputLogin';
-import Conect from './components/Conect';
-import {
-  Container,
-  ContainerInput,
-  Divider,
-  ForgotPassword,
-  SectionButton,
-  SectionInputs,
-  Title,
-} from './style';
+import StudentImage from '../../assets/image/Student-Image.png';
+import Google from '../../assets/icons/google.svg';
+import { MdOutlineEmail } from 'react-icons/md';
+import { FaLock } from 'react-icons/fa';
+import { FiEye, FiEyeOff } from 'react-icons/fi';
+import { Container, Student, Division, Title, Description, ContentButtonGoogle, ButtonGoogle, ImageGoogle, ContentBorder, Border, NameBorder, Form, ContainerInput, ContainerIconInput, Input, ContainerIconPassword, ContainerCheckbox, Checkbox, NameCheckbox, ContainerButton, ButtonRegister, ButtonLogin, ForgotPassword } from './style';
 
-const SignIn = () => (
-  <Container>
-    <SectionInputs>
-      <Title>
-        <h1>Olá!</h1>
-        <h2>Seja bem-vindo(a) novamente!</h2>
-      </Title>
-      <ButtonGoogle />
+const SignIn = () => {
 
-      <Divider>
-        <div />
-        <p>ou</p>
-        <div />
-      </Divider>
+    const [ email, setEmail ] = useState("");
+    const [ senha, setSenha ] = useState("");
+    const [ view, setView ] = useState(false);
 
-      <ContainerInput>
-        <InputLogin placeholder="E-mail" img={EmailIcon} />
-        <InputLogin placeholder="Senha" img={PadlockIcon} password top={16} />
-        <Conect />
-      </ContainerInput>
-      <SectionButton>
-        <ButtonMain title="Cadastrar" background="#FD3373" top={30} />
-        <ButtonMain title="Entrar" background="#44F9BD" colorFont="#282828" />
-      </SectionButton>
+  return (
+    <Container>
 
-      <ForgotPassword>
-        <p>Esqueci minha senha</p>
-      </ForgotPassword>
-    </SectionInputs>
-  </Container>
-);
+        <Student src={StudentImage} alt="Student Jello" />
+
+        <Division>
+            <div>
+
+                <Title>Olá!</Title>
+
+                <Description>Seja bem-vindo(a) novamente!</Description>
+
+                <ContentButtonGoogle>
+                    <ButtonGoogle>
+                        <ImageGoogle src={Google} />
+                        Entrar com Google
+                    </ButtonGoogle>
+                </ContentButtonGoogle>
+
+                <ContentBorder>
+                    
+                    <Border />
+
+                    <NameBorder>OU</NameBorder>
+
+                    <Border />
+
+                </ContentBorder>
+
+                <Form>
+
+                    <ContainerInput>
+
+                        <ContainerIconInput>
+                             <MdOutlineEmail />
+                        </ContainerIconInput>
+
+                        <Input type="text" placeholder="E-mail" />
+
+                    </ContainerInput>
+
+                    <ContainerInput>
+
+                        <ContainerIconInput>
+                             <FaLock />
+                        </ContainerIconInput>
+
+                        <Input type={view == false ? "password" : "text"} placeholder="Senha" />
+
+                        <ContainerIconPassword>
+                             {view == false ? <FiEye onClick={() => setView(true)} /> : <FiEyeOff onClick={() => setView(false)} />}
+                        </ContainerIconPassword>
+
+                    </ContainerInput>
+
+                    <div style={{display: 'flex', justifyContent: 'center'}}>
+
+                        <ContainerCheckbox>
+
+                            <Checkbox type="checkbox" />
+
+                            <NameCheckbox>Continuar conectado(a)</NameCheckbox>
+
+                        </ContainerCheckbox>
+
+                    </div>
+
+                    <ContainerButton>
+
+                        <ButtonRegister>Cadastrar</ButtonRegister>
+
+                        <ButtonLogin>Entrar</ButtonLogin>
+
+                    </ContainerButton>
+
+                    <ForgotPassword>Esqueci minha senha!</ForgotPassword>
+
+                </Form>
+
+            </div>
+        </Division>
+
+    </Container>
+  )
+}
 
 export default SignIn;

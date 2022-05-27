@@ -29,6 +29,12 @@ const GlobalStyle = createGlobalStyle`
 		list-style: none;
 	}
 
+	/*Iframe bugando página ( congelando tela ), encontrar arquivo que está criando esse iframe*/
+
+	iframe {
+		display: none;
+	}
+
 	@media (max-width: 1080px){
 		html{
 			font-size: 90.75%;
