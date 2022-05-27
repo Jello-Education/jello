@@ -1,11 +1,14 @@
 import React from 'react';
 
-const Input = (props) => {
-  return (
-   <div>
-    <input className="input-login" type={props.type} placeholder={props.placeholder} />
-   </div>
-  )
+interface InputProps {
+  type: 'password' | 'text';
+  placeholder: string;
 }
+
+const Input = ({ type, placeholder }: InputProps) => (
+  <div>
+    <input className="input-login" type={type} placeholder={placeholder} />
+  </div>
+);
 
 export default Input;
