@@ -1,11 +1,13 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-* {
+
+	* {
 		margin: 0;
 		padding: 0;
 		outline: 0;
 		box-sizing: border-box;
+		font-family: "Montserrat"
 	}
 	#root {
 		margin: 0 auto;
@@ -18,11 +20,6 @@ const GlobalStyle = createGlobalStyle`
 
 	body{
 		background: #fdfdfd;
-		font-family: "Montserrat"
-	}
-
-	h1, h2, h3, h4, span, b {
-		font-family: "Montserrat"
 	}
 
 	ul{
