@@ -27,19 +27,11 @@ export const Container = styled.header`
 
   img {
     align-items: center;
-    margin-right: 7.8rem;
     width: 8rem !important;
     cursor: pointer;
-    position: absolute;
-    top: 22%;
-    left: 48%;
   }
 
   @media (max-width: 1000px) {
-    img {
-      margin-right: 3rem;
-    }
-
     div {
       div {
         margin-left: 0;
@@ -47,12 +39,6 @@ export const Container = styled.header`
     }
   }
 
-  @media (max-width: 600px) {
-    img {
-      top: 42%;
-      left: 50%;
-    }
-  }
   @media ${MediaQuery.MOBILE} {
     height: 60px;
   }
@@ -74,7 +60,7 @@ export const ContainerImg = styled.a`
 
   img {
     align-items: center;
-
+    justify-content: center;
     cursor: pointer;
   }
 

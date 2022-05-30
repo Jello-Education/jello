@@ -5,6 +5,14 @@ export const ContainerForm = styled.div`
   justify-content: center;
   margin-top: 5%;
   padding: 20px;
+
+  @media only screen and (max-width: 1600px) {
+    margin-top: 7%;
+  }
+
+  @media only screen and (max-width: 991px) {
+    margin-top: 20%;
+  }
 `;
 
 export const Title = styled.h1`
@@ -33,6 +41,7 @@ export const NameCheckbox = styled.h2`
 
 export const ContainerInputs = styled.div`
   display: grid;
+  justify-content: center;
   width: 100%;
   margin-top: 5%;
 `;
@@ -41,6 +50,10 @@ export const NameInput = styled.h2`
   font-size: 20px;
   color: #fd3373;
   margin-top: 5%;
+
+  @media only screen and (max-width: 991px) {
+    margin-top: 10%;
+  }
 `;
 
 export const Input = styled.input`
@@ -57,6 +70,10 @@ export const Input = styled.input`
 
   &::placeholder {
     color: #bdbdbd;
+  }
+
+  @media only screen and (max-width: 991px) {
+    width: 310px;
   }
 `;
 
@@ -97,4 +114,8 @@ export const Button = styled.button`
   font-size: 16px;
   outline: none;
   border: none;
+
+  @media only screen and (max-width: 991px) {
+    margin-top: 3%;
+  }
 `;
