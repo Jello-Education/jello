@@ -10,7 +10,6 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   height: 100%;
-  padding-top: 61px;
 
   @media ${MediaQuery.TABLET_DOWN} {
     padding-top: 37px;

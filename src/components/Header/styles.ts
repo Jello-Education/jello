@@ -1,12 +1,9 @@
 import styled from 'styled-components';
-
+import Navigation from "react-sticky-nav";
 import { MediaQuery } from '../../styles/variables';
 
-export const Container = styled.header`
-  position: fixed;
-  left: 0rem;
+export const Container = styled(Navigation)`
   z-index: 2;
-  top: 0;
   height: 80px;
   width: 100%;
   padding: 0 0.3rem;
