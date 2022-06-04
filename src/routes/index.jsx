@@ -8,10 +8,11 @@ import authRoutes from './authenticationRoutes';
 import blogRoutes from './blogRoutes';
 import comingRoutes from './comingSoonRoutes';
 import plansRoutes from './plansRoutes';
+import paymentsRoutes from './paymentsRoutes';
 
 const jelloVersion = `jello-${version}`;
 
-const routeObjects = [...authRoutes, ...comingRoutes, ...blogRoutes, ...plansRoutes];
+const routeObjects = [...authRoutes, ...comingRoutes, ...blogRoutes, ...plansRoutes, ...paymentsRoutes];
 const mappedRoutes = routeObjects.map(mapRouteObject);
 
 const AppRoutes = () => (
