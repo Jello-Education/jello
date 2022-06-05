@@ -7,7 +7,9 @@ const addCommonProps = (route) => ({
   exact: true,
 });
 
-const authRoutes = [{ path: '/payment/registration', element: () => <Registration /> }];
+const authRoutes = [
+  { path: '/payment/registration', element: () => <Registration /> },
+];
 
 const mappedAuthRoutes = authRoutes.map(addCommonProps);
 

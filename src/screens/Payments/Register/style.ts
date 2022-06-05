@@ -152,7 +152,6 @@ export const Button = styled.button`
 
 export const ImageFooter = styled.img`
   width: 100%;
-  position: absolute;
   bottom: 0;
   transform: translateY(30%);
 

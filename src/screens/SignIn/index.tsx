@@ -32,8 +32,6 @@ import {
 } from './style';
 
 const SignIn = () => {
-  const [email, setEmail] = useState('');
-  const [senha, setSenha] = useState('');
   const [view, setView] = useState(false);
 
   return (
