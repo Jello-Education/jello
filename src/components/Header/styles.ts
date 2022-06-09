@@ -14,22 +14,6 @@ export const Container = styled(Navigation)`
   border-radius: 0 0 20px 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-  .home {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 1.3rem;
-    line-height: 24px;
-
-    color: #f24c4c;
-    margin: 0 30px 4px;
-  }
-
-  img {
-    align-items: center;
-    width: 8rem !important;
-    cursor: pointer;
-  }
-
   @media (max-width: 1000px) {
     div {
       div {
@@ -48,7 +32,7 @@ export const HeaderContent = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 `;
 
 export const ContainerImg = styled.a`
@@ -58,8 +42,8 @@ export const ContainerImg = styled.a`
   display: flex;
 
   img {
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    width: 8rem !important;
     cursor: pointer;
   }
 
