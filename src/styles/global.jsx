@@ -49,6 +49,23 @@ const GlobalStyle = createGlobalStyle`
     font-size: 65.5%;
   }
 }
+
+.css-1s2u09g-control {
+	border-color: #FD3373 !important;
+}
+
+.css-14el2xx-placeholder {
+	color: #bdbdbd !important;
+}
+
+
+.css-1pahdxg-control {
+	box-shadow: 0 0 0 1px #FD3373 !important;
+	border-color: #FD3373 !important;
+}
+
+
+
 `;
 
 export default GlobalStyle;
