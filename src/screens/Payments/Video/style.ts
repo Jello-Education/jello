@@ -87,53 +87,53 @@ export const Title = styled.h1`
 `;
 
 export const ContainerVideo = styled.div`
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
 
-@media only screen and (max-width: 1090px) {
+  @media only screen and (max-width: 1090px) {
     margin-top: 3%;
-}
-
+  }
 `;
 
 export const Video = styled.div`
-width: 1000px;
-height: 600px;
-background: #e7274e;
+  width: 800px;
+  height: 400px;
+  border-radius: 8px;
+  background: #e7274e;
+  margin-bottom: 20px;
+  margin-top: 20px;
 
-@media only screen and (max-width: 1090px) {
-    width: 900px;
-}
+  @media only screen and (max-width: 1090px) {
+    width: 400px;
+  }
 
-@media only screen and (max-width: 991px) {
+  @media only screen and (max-width: 991px) {
     width: 350px;
-}
-
+  }
 `;
 
 export const ContainerButton = styled.div`
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
 
-@media only screen and (max-width: 1090px) {
+  @media only screen and (max-width: 1090px) {
     margin-top: 2%;
-}
+  }
 
-@media only screen and (max-width: 991px) {
+  @media only screen and (max-width: 991px) {
     margin-top: 3%;
-}
-
+  }
 `;
 
 export const Button = styled.button`
-width: 300px;
-height: 60px;
-background: #44f9bd;
-border-radius: 30px;
-font-size: 18px;
-border: none;
+  width: 300px;
+  height: 60px;
+  background: #44f9bd;
+  border-radius: 30px;
+  font-size: 18px;
+  border: none;
 `;

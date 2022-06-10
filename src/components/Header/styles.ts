@@ -1,5 +1,7 @@
+import Navigation from 'react-sticky-nav';
+
 import styled from 'styled-components';
-import Navigation from "react-sticky-nav";
+
 import { MediaQuery } from '../../styles/variables';
 
 export const Container = styled(Navigation)`
