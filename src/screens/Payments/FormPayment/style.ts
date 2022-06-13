@@ -150,7 +150,6 @@ export const ImageFooter = styled.img`
   @media only screen and (max-width: 991px) {
     display: none;
   }
-
 `;
 
 export const Title = styled.h1`
@@ -164,36 +163,35 @@ export const Title = styled.h1`
 `;
 
 export const DescriptionTop = styled.p`
-text-align: center;
-margin-top: 3%;
-color: #e7274e;
-font-size: 16px;
+  text-align: center;
+  margin-top: 3%;
+  color: #e7274e;
+  font-size: 16px;
 
-@media only screen and (max-width: 991px) {
+  @media only screen and (max-width: 991px) {
     font-size: 12px;
-}
-
+  }
 `;
 
 export const ContainerFormPayment = styled.div`
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 52px;
-margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 52px;
+  margin-top: 5%;
 `;
 
 export const IconPayment = styled.img`
-width: 52px;
-height: 52px;
-border: none;
-margin-right: 5%;
+  width: 52px;
+  height: 52px;
+  border: none;
+  margin-right: 5%;
 `;
 
 export const ContainerInputFlex = styled.div`
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   @media only screen and (max-width: 991px) {
     display: grid;
@@ -201,7 +199,7 @@ align-items: center;
 `;
 
 export const InputFlex = styled.input`
- width: 250px;
+  width: 250px;
   height: 50px;
   border: none;
   border-bottom: 1px solid #e7274e;
