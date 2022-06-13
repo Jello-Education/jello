@@ -23,7 +23,7 @@ const index = () => (
     </ContainerLogo>
 
     <ContainerStatus>
-      <Circle style={{ background: '#44f9bd', color: '#fff', fontSize: 10 }}>
+      <Circle style={{ background: '#44f9bd', color: '#000', fontSize: 10 }}>
         <BsCheckLg />
       </Circle>
       <Border style={{ background: '#44f9bd' }} />
