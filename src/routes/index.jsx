@@ -9,6 +9,7 @@ import blogRoutes from './blogRoutes';
 import comingRoutes from './comingSoonRoutes';
 import paymentsRoutes from './paymentsRoutes';
 import plansRoutes from './plansRoutes';
+import producerRoutes from './producerRoutes';
 
 const jelloVersion = `jello-${version}`;
 
@@ -18,6 +19,7 @@ const routeObjects = [
   ...blogRoutes,
   ...plansRoutes,
   ...paymentsRoutes,
+  ...producerRoutes,
 ];
 const mappedRoutes = routeObjects.map(mapRouteObject);
 

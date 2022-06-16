@@ -8,7 +8,7 @@ import { Container } from './style';
 
 const ContentBlog = () => (
   <>
-    <Header />
+    <Header type={"blog"} />
     <Container>
       <div>
         <HeaderContent />

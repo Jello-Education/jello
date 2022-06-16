@@ -33,7 +33,8 @@ import {
 
 const Plans = () => (
   <div>
-    <Header />
+
+    <Header type={"creator"} />
 
     <ContainerInfo style={{ backgroundColor: '#DCDCDC' }}>
       <ContainerTop>
