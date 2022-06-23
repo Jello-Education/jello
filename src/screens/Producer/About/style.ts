@@ -7,20 +7,19 @@ margin-top: -8%;
 `;
 
 export const ContainerUser = styled.div`
-position: absolute;
-top: 250px;
-left: 100px;
+margin-right: 5%;
 `;
 
 export const BoxUser = styled.div`
 width: 380px;
 height: 650px;
 border-radius: 50px;
-box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.5);
+box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.3);
 background: #fff;
 display: flex;
 justify-content: center;
 align-items: center;
+margin-top: -20%;
 `;
 
 export const Picture = styled.img`
@@ -28,6 +27,7 @@ width: 150px;
 height: 150px;
 border-radius: 50%;
 margin-top: 1%;
+z-index: 1;
 `;
 
 export const Name = styled.h1`
@@ -85,12 +85,10 @@ export const ContainerInfo = styled.div`
 margin-top: 2%;
 display: grid;
 justify-content: center;
-margin-left: 25%;
 padding-bottom: 50px;
 `;
 
 export const ContainerAbout = styled.div`
-width: 1300px;
 height: 100%;
 padding: 20px;
 background: none;
@@ -115,13 +113,11 @@ margin-top: 2%;
 `;
 
 export const ContainerCursos = styled.div`
-width: 1300px;
 height: 100%;
 padding: 20px;
 background: none;
 border: 2px solid #999999;
 border-radius: 30px;
-margin-top: 1.5%;
 `;
 
 export const TitleCursos = styled.h1`
@@ -132,21 +128,25 @@ export const ContainerBoxs = styled.div`
 display: flex;
 justify-content: flex-start;
 align-items: center;
-margin-top: 2%;
+padding: 20px;
+overflow: hidden;
+margin-top: 1%;
 `;
 
 export const BoxCurso = styled.div`
 display: flex;
 justify-content: center;
-margin-right: 5%;
-height: 260px;
+align-items: center;
+height: 100%;
+width: 330px;
 background: #fff;
+margin-right: 2%;
 box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.1);
 border-radius: 20px;
 `;
 
 export const ImgCurso = styled.img`
-
+width: 330px;
 `;
 
 export const TitleBoxCurso = styled.h1`
@@ -157,4 +157,28 @@ margin-top: 3%;
 
 export const DateCurso = styled.p`
 text-align: center;
+`;
+
+export const BorderPicture = styled.div`
+width: 158px;
+height: 159px;
+background: linear-gradient(to left, #FF5E92, #46FFC2);
+border-radius: 50%;
+position: absolute;
+margin-top: -2px;
+`;
+
+export const ButtonAdd = styled.div`
+width: 30px;
+height: 30px;
+background: #2DFCB7;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+position: absolute;
+z-index: 2;
+transform: translateY(460%);
+font-size: 20px;
+cursor: pointer;
 `;

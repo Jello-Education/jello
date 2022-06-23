@@ -2,7 +2,7 @@ import React from 'react';
 import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from 'react-icons/bs';
 import { RiLinkedinFill } from 'react-icons/ri';
 import { FaGooglePlay } from 'react-icons/fa';
-import { AiFillApple } from 'react-icons/ai'
+import { AiFillApple } from 'react-icons/ai';
 
 import { Container, Box, Title, Link, ContainerIcons, ContainerLinks, BoxIcon, Copy } from './style';
 
@@ -81,4 +81,4 @@ const index = () => {
   )
 }
 
-export default index
+export default index;
