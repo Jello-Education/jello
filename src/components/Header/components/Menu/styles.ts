@@ -1,8 +1,11 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
+  position: absolute;
   display: flex;
   align-items: center;
+  left: 0;
   /* margin-top: 0.5rem;
   margin-left: 4rem; */
 
@@ -14,7 +17,7 @@ export const Container = styled.div`
   }
   .wrapper {
     height: 100%;
-    width: 300px;
+    width: 330px;
     position: relative;
   }
   .wrapper .menu-btn {
@@ -35,7 +38,7 @@ export const Container = styled.div`
   }
 
   #btn:checked ~ .menu-btn {
-    left: 142px;
+    left: 190px;
     top: -1.5em;
   }
 
@@ -107,41 +110,47 @@ export const Container = styled.div`
     font-weight: 600;
     color: white;
     border-bottom: 1px solid;
+    margin-top: 3%;
+    margin-left: -10%;
   }
-  #sidebar .list-items {
-    cursor: pointer;
-    position: relative;
-    background: #fd3373;
-    width: 100%;
-    height: 100%;
-    list-style: none;
-  }
-  #sidebar .list-items li {
-    color: white;
-    padding-left: 40px;
-    line-height: 50px;
-    border-top: 1px solid whitesmoke;
-    border-bottom: 1px solid whitesmoke;
-    transition: all 0.3s ease;
-  }
-  #sidebar .list-items li:hover {
-    border-top: 1px solid transparent;
-    border-bottom: 1px solid transparent;
-    box-shadow: 0 0px 10px 3px whitesmoke;
-  }
-  #sidebar .list-items li:first-child {
-    border-top: none;
-  }
-  #sidebar .list-items li {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    height: 100%;
-    width: 100%;
-    display: block;
-  }
-  #sidebar .list-items li {
-    margin-right: 20px;
-  }
+`;
+
+export const Links = styled.div`
+display: grid;
+justify-content: center;
+margin-top: 5%;
+text-align: center;
+`;
+
+export const LinkButon = styled(Link)`
+margin-top: 3%;
+color: #fff;
+font-size: 18px;
+`;
+
+export const ContainerButtons = styled.div`
+display: grid;
+justify-content: center;
+text-align: center;
+margin-top: 10%;
+`;
+
+export const ButtonLogin = styled(Link)`
+width: 200px;
+height: 45px;
+background: #fff;
+color: #fd3373;
+border-radius: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+font-size: 14px;
+`;
+
+export const ButtonRegister = styled(Link)`
+margin-top: 3%;
+color: #fff;
+text-decoration: none;
+font-size: 16px;
 `;
