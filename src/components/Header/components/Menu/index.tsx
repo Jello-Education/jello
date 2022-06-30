@@ -3,7 +3,7 @@ import React from 'react';
 import CloseIcon from '@material-ui/icons/Close';
 import MenuIcon from '@material-ui/icons/Menu';
 
-import { Container } from './styles';
+import { Container, Links, LinkButon, ContainerButtons, ButtonLogin, ButtonRegister } from './styles';
 
 const Menu = () => (
   <Container>
@@ -19,17 +19,18 @@ const Menu = () => (
       </label>
       <nav id="sidebar">
         <div className="title">Menu</div>
-        <ul className="list-items">
-          <a href="/coming">
-            <li>Comece a Aprender</li>
-          </a>
-          <a href="/coming">
-            <li>Conteúdos</li>
-          </a>
-          <a href="/about">
-            <li>Sobre a Jello</li>
-          </a>
-        </ul>
+        
+        <Links>
+          <LinkButon to="/coming" >Comece a aprender</LinkButon>
+          <LinkButon to="/coming" >Conteúdos</LinkButon>
+          <LinkButon to="/coming" >Sobre a Jello</LinkButon>
+        </Links>
+
+        <ContainerButtons>
+          <ButtonLogin to="/signin" >Iniciar sessão</ButtonLogin>
+          <ButtonRegister to="/signup" >Registrar</ButtonRegister>
+        </ContainerButtons>
+
       </nav>
     </div>
   </Container>
