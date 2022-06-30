@@ -1,16 +1,17 @@
 import React from 'react';
-import { AiFillApple, RiLinkedinFill } from 'react-icons/ai';
+import { AiFillApple } from 'react-icons/ai';
 import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from 'react-icons/bs';
 import { FaGooglePlay } from 'react-icons/fa';
+import { RiLinkedinFill } from 'react-icons/ri';
 
 import {
   Box,
   BoxIcon,
+  ClickLink,
   Container,
   ContainerIcons,
   ContainerLinks,
   Copy,
-  Link,
   Title,
 } from './style';
 
@@ -56,10 +57,10 @@ const Footer = () => (
         <Title>Educação</Title>
 
         <ContainerLinks>
-          <Link>Aprenda novas coisas</Link>
-          <Link>Crie seu curso</Link>
-          <Link>Programa de afiliados</Link>
-          <Link>Comunidade</Link>
+          <ClickLink>Aprenda novas coisas</ClickLink>
+          <ClickLink>Crie seu curso</ClickLink>
+          <ClickLink>Programa de afiliados</ClickLink>
+          <ClickLink>Comunidade</ClickLink>
         </ContainerLinks>
       </Box>
 
@@ -67,9 +68,9 @@ const Footer = () => (
         <Title>Jello</Title>
 
         <ContainerLinks>
-          <Link>A empresa</Link>
-          <Link>Seja um patrocinador</Link>
-          <Link>Guia de uso da marca</Link>
+          <ClickLink>A empresa</ClickLink>
+          <ClickLink>Seja um patrocinador</ClickLink>
+          <ClickLink>Guia de uso da marca</ClickLink>
         </ContainerLinks>
       </Box>
 
@@ -77,11 +78,11 @@ const Footer = () => (
         <Title>Suporte</Title>
 
         <ContainerLinks>
-          <Link>Central de ajuda</Link>
-          <Link>Termos de uso</Link>
-          <Link>Termos de compra</Link>
-          <Link>Política de privacidade</Link>
-          <Link>Política de cookies</Link>
+          <ClickLink>Central de ajuda</ClickLink>
+          <ClickLink>Termos de uso</ClickLink>
+          <ClickLink>Termos de compra</ClickLink>
+          <ClickLink>Política de privacidade</ClickLink>
+          <ClickLink>Política de cookies</ClickLink>
         </ContainerLinks>
       </Box>
     </Container>
