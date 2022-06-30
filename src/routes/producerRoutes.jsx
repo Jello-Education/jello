@@ -7,9 +7,7 @@ const addCommonProps = (route) => ({
   exact: true,
 });
 
-const authRoutes = [
-  { path: '/producer', element: () => <About /> },
-];
+const authRoutes = [{ path: '/producer', element: () => <About /> }];
 
 const mappedAuthRoutes = authRoutes.map(addCommonProps);
 
