@@ -39,10 +39,7 @@ export const HeaderContent = styled.div`
 `;
 
 export const ContainerImg = styled.a`
-  
-
   img {
-    /* align-items: center; */
     width: 8rem !important;
     cursor: pointer;
   }

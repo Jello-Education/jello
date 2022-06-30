@@ -4,15 +4,15 @@ import Box from '@mui/material/Box';
 
 import imgBlogCard from '../../../assets/imgBlog/imgBlogCard_1.svg';
 import ImgHeaderBlog from '../../../assets/imgBlog/imgHeaderBlog.svg';
+import Footer from '../../../components/Footer/index';
 import Header from '../../../components/Header';
 import LeadCapture from '../../../components/LeadCapture';
 import Contentcard from './components/ContentCard';
 import { Container, ImagemHeader, Section } from './style';
-import Footer from '../../../components/Footer/index'
 
 const HomeBlog = () => (
   <>
-    <Header type={"blog"} />
+    <Header type="blog" />
     <Container>
       <div>
         <ImagemHeader src={ImgHeaderBlog} alt="Imagem header" />

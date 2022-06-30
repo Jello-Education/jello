@@ -1,5 +1,6 @@
-import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+
+import styled from 'styled-components';
 
 export const Container = styled.div`
   position: absolute;
@@ -116,41 +117,41 @@ export const Container = styled.div`
 `;
 
 export const Links = styled.div`
-display: grid;
-justify-content: center;
-margin-top: 5%;
-text-align: center;
+  display: grid;
+  justify-content: center;
+  margin-top: 5%;
+  text-align: center;
 `;
 
 export const LinkButon = styled(Link)`
-margin-top: 3%;
-color: #fff;
-font-size: 18px;
+  margin-top: 3%;
+  color: #fff;
+  font-size: 18px;
 `;
 
 export const ContainerButtons = styled.div`
-display: grid;
-justify-content: center;
-text-align: center;
-margin-top: 10%;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10%;
 `;
 
 export const ButtonLogin = styled(Link)`
-width: 200px;
-height: 45px;
-background: #fff;
-color: #fd3373;
-border-radius: 30px;
-display: flex;
-justify-content: center;
-align-items: center;
-text-decoration: none;
-font-size: 14px;
+  width: 200px;
+  height: 45px;
+  background: #fff;
+  color: #fd3373;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 14px;
 `;
 
 export const ButtonRegister = styled(Link)`
-margin-top: 3%;
-color: #fff;
-text-decoration: none;
-font-size: 16px;
+  margin-top: 3%;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
 `;

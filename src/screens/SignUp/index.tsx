@@ -42,7 +42,7 @@ const index = () => {
 
   return (
     <>
-      <Header type={"pattern"} />
+      <Header type="pattern" />
 
       <ContainerForm>
         <div>

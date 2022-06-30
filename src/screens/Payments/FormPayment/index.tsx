@@ -85,13 +85,13 @@ const index = () => {
           ) : (
             <div
               style={{ color: '#FD3373', marginRight: '5%', marginTop: '3%' }}
-              onClick={() => setFormPaymethod(1)}
+              // onClick={() => setFormPaymethod(1)}
             >
               <AiFillCreditCard />
             </div>
           )}
 
-          {formPaymethod == 2 ? (
+          {formPaymethod === 2 ? (
             <div
               style={{ color: '#44f9bd', marginRight: '5%', marginTop: '3%' }}
             >
@@ -100,7 +100,7 @@ const index = () => {
           ) : (
             <div
               style={{ color: '#FD3373', marginRight: '5%', marginTop: '3%' }}
-              onClick={() => setFormPaymethod(2)}
+              // onClick={() => setFormPaymethod(2)}
             >
               <RiBarcodeBoxLine />
             </div>

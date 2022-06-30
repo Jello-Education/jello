@@ -6,7 +6,7 @@ import { ComingSoonContainer, Container, Title } from './styles';
 
 const ComingSoon = () => (
   <Container>
-    <Header type={"blog"} />
+    <Header type="blog" />
 
     <ComingSoonContainer>
       <img src={breve} alt="Imagem ilustrativa para 'Em breve'" />

@@ -97,86 +97,81 @@ export const Description = styled.p`
 `;
 
 export const ContainerVideo = styled.div`
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
 
-@media only screen and (max-width: 1090px) {
+  @media only screen and (max-width: 1090px) {
     margin-top: 3%;
-}
-
+  }
 `;
 
 export const Video = styled.div`
-width: 1000px;
-height: 600px;
-background: #e7274e;
+  width: 1000px;
+  height: 600px;
+  background: #e7274e;
 
-@media only screen and (max-width: 1090px) {
+  @media only screen and (max-width: 1090px) {
     width: 900px;
-}
+  }
 
-@media only screen and (max-width: 991px) {
+  @media only screen and (max-width: 991px) {
     width: 350px;
-}
-
+  }
 `;
 
 export const ContainerButton = styled.div`
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
 
-@media only screen and (max-width: 1090px) {
+  @media only screen and (max-width: 1090px) {
     margin-top: 2%;
-}
+  }
 
-@media only screen and (max-width: 991px) {
+  @media only screen and (max-width: 991px) {
     margin-top: 3%;
-}
-
+  }
 `;
 
 export const Button = styled.button`
-width: 300px;
-height: 60px;
-background: #44f9bd;
-border-radius: 30px;
-font-size: 18px;
-border: none;
+  width: 300px;
+  height: 60px;
+  background: #44f9bd;
+  border-radius: 30px;
+  font-size: 18px;
+  border: none;
 `;
 
 export const Container = styled.div`
-display: flex;
-justify-content: center;
-margin-top: 1%;
-text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  text-align: center;
 
-@media only screen and (max-width: 991px) {
+  @media only screen and (max-width: 991px) {
     margin-top: 5%;
     padding: 20px;
-}
-
+  }
 `;
 
 export const ContainerCheck = styled.div`
-display: flex;
-justify-content: center;
-align-items: center;
-color: #44f9bd;
-font-size: 200px;
-margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #44f9bd;
+  font-size: 200px;
+  margin-top: 5%;
 
-@media only screen and (max-width: 991px) {
+  @media only screen and (max-width: 991px) {
     margin-top: 10%;
-}
-
+  }
 `;
 
 export const Br = styled.br`
-@media only screen and (max-width: 991px) {
+  @media only screen and (max-width: 991px) {
     display: none;
-}
+  }
 `;
