@@ -3,6 +3,7 @@ import React from 'react';
 import Image from '../../assets/image/Background-Plans.jpg';
 import ImageInfo1 from '../../assets/image/Devices.jpg';
 import ImageInfo2 from '../../assets/image/Offline.png';
+import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import {
   Box,
@@ -33,8 +34,7 @@ import {
 
 const Plans = () => (
   <div>
-
-    <Header type={"creator"} />
+    <Header type="creator" />
 
     <ContainerInfo style={{ backgroundColor: '#DCDCDC' }}>
       <ContainerTop>
@@ -137,6 +137,7 @@ const Plans = () => (
         </DescriptionInfo>
       </ContainerBoxInfo>
     </ContainerImage>
+    <Footer />
   </div>
 );
 
